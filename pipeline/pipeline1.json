@@ -206,6 +206,12 @@
 						}
 					]
 				}
+			},
+			{
+				"name": "ForEach1",
+				"type": "ForEach",
+				"dependsOn": [],
+				"userProperties": []
 			}
 		],
 		"parameters": {
@@ -220,6 +226,10 @@
 			"is_country": {
 				"type": "bool",
 				"defaultValue": true
+			},
+			"for_array": {
+				"type": "array",
+				"defaultValue": "1,2,3"
 			}
 		},
 		"annotations": []
