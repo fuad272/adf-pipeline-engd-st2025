@@ -10,6 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
+				"fileName": "country.csv",
+				"folderPath": "umpirsky/country-list/refs/heads/master/data/en_US",
 				"container": "containerfuad"
 			},
 			"columnDelimiter": ",",
