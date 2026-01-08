@@ -8,6 +8,10 @@
 				"dependsOn": [],
 				"userProperties": [],
 				"typeProperties": {
+					"expression": {
+						"value": "@pipeline().parameters.is_country",
+						"type": "Expression"
+					},
 					"ifFalseActivities": [
 						{
 							"name": "copySalesFromGithub",
