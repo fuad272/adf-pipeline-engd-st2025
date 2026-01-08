@@ -47,7 +47,13 @@
 				"inputs": [
 					{
 						"referenceName": "countries",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"relative_url": {
+								"value": "@pipeline().parameters.source",
+								"type": "Expression"
+							}
+						}
 					}
 				],
 				"outputs": [
