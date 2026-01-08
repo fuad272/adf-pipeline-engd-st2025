@@ -215,7 +215,7 @@
 			},
 			"is_country": {
 				"type": "bool",
-				"defaultValue": "True"
+				"defaultValue": true
 			}
 		},
 		"annotations": []
